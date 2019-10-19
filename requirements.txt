@@ -1,5 +1,5 @@
 Flask
-Flask-SocketIO
+Flask-SocketIO==4.2.1
 gevent
 eventlet
 Flask-Session==0.3.1
