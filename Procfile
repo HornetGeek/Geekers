@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT application:app
+web: gunicorn --worker-class eventlet -w 1 -b :$PORT application:app
